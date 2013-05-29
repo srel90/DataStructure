@@ -1,0 +1,193 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    tools:context=".SelectSort" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Sort"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="30dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cursor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cursor"
+                android:src="@drawable/cursoroddb" />
+
+            <ImageView
+                android:id="@+id/cursor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cursor"
+                android:src="@drawable/cursoroddb" />
+
+            <ImageView
+                android:id="@+id/cursor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cursor"
+                android:src="@drawable/cursoroddb" />
+
+            <ImageView
+                android:id="@+id/cursor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cursor"
+                android:src="@drawable/cursoroddb" />
+
+            <ImageView
+                android:id="@+id/cursor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/cursor"
+                android:src="@drawable/cursoroddb" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:contentDescription="@string/button"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:contentDescription="@string/button"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:contentDescription="@string/button"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:contentDescription="@string/button"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block"
+                android:contentDescription="@string/button"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp" >
+
+        <Button
+            android:id="@+id/btnswap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swap"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnnoswap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No swap"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/txtfault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dp" >
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btndirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnrefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</TableLayout>

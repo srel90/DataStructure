@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.datastructure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.game.datastructure.MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.game.datastructure.BubbleSort"
+            android:label="@string/title_activity_bubble_sort" >
+        </activity>
+        <activity
+            android:name="com.game.datastructure.SelectSort"
+            android:label="@string/title_activity_select_sort" >
+        </activity>
+        <activity
+            android:name="com.game.datastructure.InsertSort"
+            android:label="@string/title_activity_insert_sort" >
+        </activity>
+        <activity
+            android:name="com.game.datastructure.QueueSort"
+            android:label="@string/title_activity_queue_sort" >
+        </activity>
+        <activity
+            android:name="com.game.datastructure.StackSort"
+            android:label="@string/title_activity_stack_sort" >
+        </activity>
+        <activity
+            android:name="com.game.datastructure.QuickSort"
+            android:label="@string/title_activity_quick_sort" >
+        </activity>
+    </application>
+
+</manifest>

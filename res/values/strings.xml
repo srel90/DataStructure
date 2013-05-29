@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataStructure</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bubble_sort">BubbleSort</string>
+    <string name="cursor">ccursor</string>
+    <string name="title_activity_select_sort">SelectSort</string>
+    <string name="button">button</string>
+    <string name="title_activity_insert_sort">InsertSort</string>
+    <string name="title_activity_queue_sort">QueueSortActivity</string>
+    <string name="title_activity_stack_sort">StackSort</string>
+    <string name="title_activity_quick_sort">QuickSort</string>
+
+</resources>

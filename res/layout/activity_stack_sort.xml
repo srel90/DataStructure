@@ -1,0 +1,320 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    tools:context=".StackSort" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stack Sort"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/btntemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/button"
+                android:src="@drawable/blocktt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingRight="30dp" >
+
+                <ImageView
+                    android:id="@+id/btnans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockp" />
+
+                <ImageView
+                    android:id="@+id/btnans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockp" />
+
+                <ImageView
+                    android:id="@+id/btnans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockp" />
+
+                <ImageView
+                    android:id="@+id/btnans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockp" />
+
+                <ImageView
+                    android:id="@+id/btnans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="30dp" >
+
+                <Button
+                    android:id="@+id/btnpushleft"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Push"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/btnleft1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnleft2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnleft3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnleft4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnleft5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <Button
+                    android:id="@+id/btnpopleft"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Pop"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="30dp" >
+
+                <Button
+                    android:id="@+id/btnpushcenter"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Push"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/btncenter1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockt" />
+
+                <ImageView
+                    android:id="@+id/btncenter2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockt" />
+
+                <ImageView
+                    android:id="@+id/btncenter3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockt" />
+
+                <ImageView
+                    android:id="@+id/btncenter4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockt" />
+
+                <ImageView
+                    android:id="@+id/btncenter5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/blockt" />
+
+                <Button
+                    android:id="@+id/btnpopcenter"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Pop"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnpushright"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Push"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/btnright1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnright2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnright3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnright4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <ImageView
+                    android:id="@+id/btnright5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button"
+                    android:src="@drawable/block" />
+
+                <Button
+                    android:id="@+id/btnpopright"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Pop"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtfault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btndirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnrefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</TableLayout>
